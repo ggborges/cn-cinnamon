@@ -10,8 +10,17 @@ type Story = StoryObj;
 
 export const Hello: Story = {
   render: () => (
-    <div className="p-4 rounded-md bg-blue-500 text-white">
-      Tailwind 4 is working 🎉
+    <div className="p-4 rounded-lg bg-primary text-primary-foreground">
+      Tailwind 4 + Shadcn tokens are working 🎉
     </div>
   ),
 };
+
+export const HelloDark: Story = {
+  render: () => (
+    <div className="p-4 rounded-lg bg-primary text-primary-foreground">
+      Dark mode tokens are working 🌙
+    </div>
+  ),
+};
+HelloDark.parameters = { theme: { mode: "dark" } };
