@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { Button } from "@/components/ui/button";
 
 const meta: Meta = {
   title: "Test/Hello",
@@ -12,7 +13,7 @@ export const Hello: Story = {
   render: () => (
     <div className="p-4 rounded-lg bg-primary text-primary-foreground">
       Tailwind 4 + Shadcn tokens are working 🎉
-    </div>
+    </div>    
   ),
 };
 

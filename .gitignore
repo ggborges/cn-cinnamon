@@ -1,7 +1,12 @@
 node_modules
 dist
 storybook-static
+
+foundation.md
+button.md
+
+*storybook.log
+
 .DS_Store
 .env
 .npmrc
-*storybook.log
